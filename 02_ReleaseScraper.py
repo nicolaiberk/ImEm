@@ -14,7 +14,9 @@ import time
 from random import randint
 import datetime
 from sys import stdout
+import os.path
 
+basedir = os.path.expanduser('~/Dropbox/Studies/Semester 2/Block I/data_IMEM/intermediate/')
 
 maxInt = sys.maxsize
 
@@ -30,7 +32,6 @@ while True:
         break
     except OverflowError:
         maxInt = int(maxInt/10)
-        
 
 #%% Scraping releases
 releases = []
@@ -41,9 +42,9 @@ dt=str(datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
 
 print("Collecting parties' press releases....")
 
-with open('C:/Users/samunico/OneDrive/Dokumente/Studium/Amsterdam/Studies/Semester 2/Block I/Big Data/FinalPaper/Releases/Links20190516-190202.csv', mode="r", encoding="utf-8") as fi:
-    with open("C:/Users/samunico/OneDrive/Dokumente/Studium/Amsterdam/Studies/Semester 2/Block I/Big Data/FinalPaper/Releases/Releases"+dt+".csv",mode="w", encoding="utf-8") as fo:
-        with open('Releases/Deadlinks' + dt + '.csv', mode="w", encoding="utf-8") as dl:
+with open(basedir+'Links20190516-190202.csv', mode="r", encoding="utf-8") as fi:
+    with open(basedir+"Releases"+dt+".csv",mode="w", encoding="utf-8") as fo:
+        with open(basedir+'Deadlinks' + dt + '.csv', mode="w", encoding="utf-8") as dl:
             
             # open csv to read links
             reader = csv.reader(fi)

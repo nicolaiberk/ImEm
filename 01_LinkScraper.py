@@ -21,6 +21,7 @@ import datetime
 import csv
 import re
 from sys import stdout
+import os.path
 
 #%% define function
 def linkScraper(file,       # string indicating (path and) name of file that the output should be written to 
@@ -197,7 +198,8 @@ strToDates.append('%d.%m.%Y')
 
 
 #%% run scraper
-linkScraper(file = 'Releases/Links', 
+basedir = os.path.expanduser('~/Dropbox/Studies/Semester 2/Block I/data_IMEM/')
+linkScraper(file = basedir+'intermediate/Links'
             senders = senders, 
             urls = urls, 
             linkbases = linkbases, 
