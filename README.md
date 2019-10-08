@@ -17,13 +17,13 @@ This project sets out to provide a new measure of parties' emphasis of the immig
 ### The following documents are available so far:
 
 0.  A [short theoretical introduction](https://github.com/samunico/ImEm/blob/master/00_Introduction_and_analytical_strategy.pdf) to the project that formulates some hypotheses to be tested and describes the output to be produced.
-1. The code used to scrape the [links](https://github.com/samunico/ImEm/blob/master/01_LinkScraper.py);
-2. The code used to scrape the [actual press releases](https://github.com/samunico/ImEm/blob/master/02_ReleaseScraper.py).
-3. [Code](https://github.com/samunico/ImEm/blob/master/03_Preprocessing.py) pre-processing the text.
-4. A [notebook](https://github.com/samunico/ImEm/blob/master/04_HandCoding.ipynb) showing how the training and test set for the classifier were coded.
-5. A [notebook](https://github.com/samunico/ImEm/blob/master/05_Classifier.ipynb) used to train the classifier.
-6. A [notebook](https://github.com/samunico/ImEm/blob/master/06_PrepareVariables.ipynb) preparing the variables for time-series estimation.
-7. The [code](https://github.com/samunico/ImEm/blob/master/07_TimeSeries.ipynb) analyzing the data to test the initially formulated hypotheses using time series estimation (VAR).
+1. The [code used to scrape the links](https://github.com/samunico/ImEm/blob/master/01_LinkScraper.py);
+2. The [code used to scrape the actual press releases](https://github.com/samunico/ImEm/blob/master/02_ReleaseScraper.py).
+3. The [code](https://github.com/samunico/ImEm/blob/master/03_Preprocessing.py) pre-processing the text.
+4. A [notebook](https://nbviewer.jupyter.org/github/samunico/ImEm/blob/master/04_HandCoding.ipynb) showing how the training and test set for the classifier were coded.
+5. A [notebook](https://nbviewer.jupyter.org/github/samunico/ImEm/blob/master/05_Classifier.ipynb) used to train the classifier.
+6. A [notebook](https://nbviewer.jupyter.org/github/samunico/ImEm/blob/master/06_PrepareVariables.ipynb) preparing the variables for time-series estimation.
+7. The [notebook](https://nbviewer.jupyter.org/github/samunico/ImEm/blob/master/07_TimeSeries.ipynb) analyzing the data to test the initially formulated hypotheses using time series estimation (VAR).
 
 
 ### Additionally, the used and collected data are provided [here](https://www.dropbox.com/sh/87o5u709h97i4t1/AAAhTJsndUEdH4KJ9FPooF6la?dl=0):
