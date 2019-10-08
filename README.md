@@ -1,5 +1,5 @@
 # To lead or to follow?
-#### Mainstream parties’ issue emphasis and radical right success in Germany[^1].
+#### Mainstream parties’ issue emphasis and radical right success in Germany<sup>1</sup>.
 
 ### Short description:
 
@@ -34,4 +34,5 @@ This project sets out to provide a new measure of parties' emphasis of the immig
 * A merged dataset of the aggregated monthly share of mainstream parties' press releases, merged with data on the [Google searches about immigration](https://trends.google.com/trends/explore?date=all&geo=DE&q=%2Fm%2F0cbx95), as well as the [the monthly polling of the AfD vote share, based on poll of polls](https://www.politico.eu/europe-poll-of-polls/germany/).
 * A [folder](https://www.dropbox.com/sh/sr6nxeh6megg1w8/AABE0DEK9Kik77LLcUcHHjr0a?dl=0) with preliminary data used to construct the coded and aggregated datasets.
 
-[^1]: This project started out as the final project for Damian Trilling's [Big Data and Automated Content Analysis course](https://github.com/damian0604/bdaca).
+
+<sup>1</sup>: This project started out as the final project for Damian Trilling's [Big Data and Automated Content Analysis course](https://github.com/damian0604/bdaca).
