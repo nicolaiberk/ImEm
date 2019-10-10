@@ -199,7 +199,7 @@ strToDates.append('%d.%m.%Y')
 
 #%% run scraper
 basedir = os.path.expanduser('~/Dropbox/Studies/Semester 2/Block I/data_IMEM/')
-linkScraper(file = basedir+'intermediate/Links'
+linkScraper(file = basedir+'intermediate/Links',
             senders = senders, 
             urls = urls, 
             linkbases = linkbases, 
