@@ -5,7 +5,7 @@
 
 The literature provides different expectations about the relationship between the emphasis of an issue through established parties, the vote share of the party 'owning' this issue (i.e. the party being associated with it), and the importance of an issue among the general public.
 
-This project sets out to provide a new measure of parties' emphasis of the immigration issue. It does so by applying supervised machine learning techniques to press releases of German mainstream parties. Additionally, this data will be aggregated monthly and merged with data on public salience (from [Google Trends](https://trends.google.com/trends/?geo=DE)), and performance of the German radical right party AfD (from [PollOfPolls](https://www.politico.eu/europe-poll-of-polls/)). Lastly, the project will analyse these data using time-series regression, in order to disentangle the relationship between mainstream parties' issue emphasis of immigration, the issue's salience, and the AfD's vote share.
+This project sets out to provide a new measure of parties' emphasis of the immigration issue. It does so by applying supervised machine learning techniques to press releases of German mainstream parties. Additionally, this data will be aggregated monthly and merged with data on public salience (from [Google Trends](https://trends.google.com/trends/?geo=DE)), and polling performance of the German radical right party AfD (from [PollOfPolls](https://www.politico.eu/europe-poll-of-polls/)). Lastly, the project will analyse these data using time-series regression, in order to disentangle the relationship between mainstream parties' issue emphasis of immigration, the issue's salience, and the AfD's vote share in the polls.
 
 ### Preliminary findings:
 * Mainstream party communication on immigration is not affected by the vote share of the AfD in recent polls.
@@ -24,6 +24,7 @@ This project sets out to provide a new measure of parties' emphasis of the immig
 5. A [notebook](https://nbviewer.jupyter.org/github/samunico/ImEm/blob/master/05_Classifier.ipynb) used to train the classifier.
 6. A [notebook](https://nbviewer.jupyter.org/github/samunico/ImEm/blob/master/06_PrepareVariables.ipynb) preparing the variables for time-series estimation.
 7. The [notebook](https://nbviewer.jupyter.org/github/samunico/ImEm/blob/master/07_TimeSeries.ipynb) analyzing the data to test the initially formulated hypotheses using time series estimation (VAR).
+8. A [set of slides](https://nbviewer.jupyter.org/github/samunico/ImEm/blob/master/08_presentation.pdf) showcasing the preliminary results presented at the [Hot Politics Lab](http://www.hotpolitics.eu/) (University of Amsterdam).
 
 
 ### Additionally, the used and collected data are provided [here](https://www.dropbox.com/sh/87o5u709h97i4t1/AAAhTJsndUEdH4KJ9FPooF6la?dl=0):
