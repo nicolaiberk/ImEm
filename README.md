@@ -1,6 +1,8 @@
 # To lead or to follow?
 #### Mainstream parties’ issue emphasis and radical right success in Germany<sup>1</sup>.
 
+![Preliminary findings indicate that mainstream parties do not react to radical-right success by emphasising immigration, nor vice versa.](LaTeX/irf_1.png)
+
 ### Short description:
 
 The literature provides different expectations about the relationship between the emphasis of an issue through established parties, the vote share of the party 'owning' this issue (i.e. the party being associated with it), and the importance of an issue among the general public.
